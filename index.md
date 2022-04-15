@@ -55,8 +55,8 @@ margin-top: 0px;
     var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/streets-v10',
-        center: [105.820358, 21.054403],
-        zoom: 10
+        center: [105.820358, 21.054000],
+        zoom: 4
     });
 
     map.on('load', function() {
